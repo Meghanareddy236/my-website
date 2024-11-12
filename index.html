@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Meghana Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: rgb(2, 2, 36);
+        color: floralwhite;
+        font-family: "Poppins", sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(43, 43, 88);
+      }
+      nav ul{
+        display: flex;
+        justify-content:center;
+      }
+      nav ul li{
+        
+        list-style: none;
+        margin: 0 24px;
+      }
+      nav ul li a{
+        
+        text-decoration: none;
+        color: antiquewhite;
+      }
+      nav ul li a:hover{
+        
+        color:rgb(120, 120, 172);
+        font-size: 1.05rem;
+        
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .Firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 60px 0;
+      }
+      .Firstsection > div{
+        width: 40%;
+      }
+      .leftsection{
+       
+        font-size: 2.5rem;
+      }
+      .rightsection img{
+        width: 70%;
+        margin: 20px 0;
+        
+        
+      }
+      #element{
+        color:rgb(120, 120, 172)
+      }
+      .aqua{
+        color:rgb(120, 120, 172)
+
+      }
+      footer{
+        background-color: rgb(54, 54, 76);
+        
+      }
+      .footerfoot{
+        width: 100%;
+        padding: 70px 30px 20px;
+      }
+      .footer-first{
+        display: flex;
+        justify-content: center;
+      }
+      .footer-first a{
+        text-decoration: none;
+        padding:10px;
+        background-color: blanchedalmond;
+        margin: 10px;
+        border-radius: 50%;
+      }
+      .footer-first a i{
+        font-size: 2em;
+        color: rgb(25, 54, 92);
+        opacity: 0.9;
+
+      }
+      .footer-first a:hover{
+        background-color: grey ;
+      }
+      .footer-first a:hover i{
+        color: rgb(7, 6, 79);
+      }
+      .footer-second{
+        margin:30px 0;
+      }
+      .footer-second ul{
+        display: flex;
+        justify-content: space-around;
+      }
+      .footer-second ul li{
+          list-style: none;
+      }
+      .footer-second ul li a{
+        color:white;
+        margin: 20px;
+        text-decoration: none;
+        font-size: 1.3em;
+        opacity: 0.7;
+      }
+      .footer-second ul li a:hover{
+        opacity: 1;
+      }
+      .footer-third{
+        background-color: rgb(102, 100, 100);
+        padding: 20px;
+        text-align: center;
+      }
+      
+
+     
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Meghana's Porfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+                
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="Firstsection">
+            <div class="leftsection">Hey there! I’m <span class="aqua">Meghana!</span>
+            <div> I'm a Passionate</div>
+            <span id="element"></span>
+  
+            </div>
+            <div class="rightsection"><img src="me2.png"
+               ></div>
+
+        </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footerfoot"></div>
+        <div class="footer-first">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          
+        </div>
+      
+        <div class="footer-second">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <p>Copyright &copy;2024;Designed by <span class="designer">Meghana</span></p>
+        </div>
+        <div class="footer-fourth"></div>
+      </div></div>
+      </footer>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Data Science Student', 'AI/ML Enthusiast...' ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+
+</html>
